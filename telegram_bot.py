@@ -16,7 +16,7 @@ sys.path.insert(0, ROOT_DIR)
 from main_pipeline import run_pipeline
 from scripts.upload_pending import upload_pending_video  # your helper
 
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TOKEN = os.getenv("7674430173:AAHeaNjetQ8QCsFcKvfsceGNR7lyGwgwtQA")
 
 
 async def safe_reply(update: Update, text: str):
